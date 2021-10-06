@@ -1,0 +1,12 @@
+.d-flex{
+  flex-direction: column;
+}
+
+.rowstuff{
+  flex-wrap: nowrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+  flex-direction: row;
+  justify-content: space-evenly;
+}
